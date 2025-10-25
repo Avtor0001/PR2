@@ -1,0 +1,23 @@
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    
+    h1 {
+        line-height: 1.2;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .social-icons {
+        max-width: 200px;
+        transition: transform 0.3s ease;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    
+    img {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+}

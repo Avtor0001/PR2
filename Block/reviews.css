@@ -1,0 +1,29 @@
+.reviews-section .nav-tabs {
+  border-bottom: 2px solid #404040;
+}
+.reviews-section .nav-tabs .nav-link {
+  color: #ffffff;
+  border: none;
+  margin: 0 5px;
+  border-radius: 5px 5px 0 0;
+}
+.reviews-section .nav-tabs .nav-link.active {
+  background-color: #404040;
+  color: #ffffff;
+  border: none;
+}
+.reviews-section .nav-tabs .nav-link:hover {
+  border: none;
+  background-color: #2d2d2d;
+}
+.reviews-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+.reviews-section .card:hover {
+  transform: translateY(-3px);
+}
+.reviews-section .card img {
+  max-width: 120px;
+  margin: 0 auto;
+}/*# sourceMappingURL=reviews.css.map */

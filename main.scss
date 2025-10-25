@@ -1,0 +1,44 @@
+@import "./Block/header.scss";
+@import "./Block/hero.scss";
+@import "./Block/episodes.scss";
+@import "./Block/carousel.scss";
+@import "./Block/accordion.scss";
+@import "./Block/reviews.scss";
+@import "./Block/footer.scss";
+@import "./Block/modal.scss";
+
+::selection {
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-color: #191919;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('font/DMSans-Regular.ttf') format('ttf');
+    font-style: normal;
+}
+
+// Custom dark theme adjustments
+.bg-dark {
+    background-color: #191919 !important;
+}
+
+.bg-secondary {
+    background-color: #2d2d2d !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}

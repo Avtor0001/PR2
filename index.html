@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>PR2</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/LOGO.png" alt="Logo" height="40">
+            </a>
+            
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <img class="cart-icon" src="images/Corz.png" alt="Cart" height="24">
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#home" role="button" data-bs-toggle="dropdown">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#home">Main</a></li>
+                            <li><a class="dropdown-item" href="#latest-episodes">Latest Episodes</a></li>
+                            <li><a class="dropdown-item" href="#reviews">Reviews</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#latest-episodes" role="button" data-bs-toggle="dropdown">
+                            Episodes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#latest-episodes">Latest Episodes</a></li>
+                            <li><a class="dropdown-item" href="#accordion">Episode Details</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#about" role="button" data-bs-toggle="dropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                            <li><a class="dropdown-item" href="#carousel">Gallery</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                    <img src="images/IMAGE.png" alt="Podcast" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold mb-4">Take your<br>podcast to the<br>next level</h1>
+                    <img src="images/social.png" alt="Social Media" class="img-fluid social-icons">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Episodes -->
+    <section id="latest-episodes" class="latest-episodes py-5 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="h1 fw-bold">Latest episodes</h2>
+                <button class="btn btn-outline-light">View all episodes</button>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Episode 1 -->
+                <div class="col-12">
+                    <div class="card bg-secondary text-white">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/IMAGE1.png" class="img-fluid rounded-start" alt="Episode 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <span class="badge bg-primary mb-2">Gear</span>
+                                    <h5 class="card-title">Episode 3</h5>
+                                    <h4 class="h5 fw-bold">Should you get outboard audio gear?</h4>
+                                    <p class="card-text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here's our reasons on why you might want to consider picking something up.</p>
+                                    <button class="btn btn-light">View Episode Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Episode 2 -->
+                <div class="col-12">
+                    <div class="card bg-secondary text-white">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/IMAGE2.png" class="img-fluid rounded-start" alt="Episode 2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <span class="badge bg-info mb-2">Tips & Tricks</span>
+                                    <h5 class="card-title">Episode 2</h5>
+                                    <h4 class="h5 fw-bold">Mic tricks to take you to the next level</h4>
+                                    <p class="card-text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+                                    <button class="btn btn-light">View Episode Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Episode 3 -->
+                <div class="col-12">
+                    <div class="card bg-secondary text-white">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/IMAGE3.png" class="img-fluid rounded-start" alt="Episode 3">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <span class="badge bg-primary mb-2">Gear</span>
+                                    <h5 class="card-title">Episode 1</h5>
+                                    <h4 class="h5 fw-bold">The best microphone under $200</h4>
+                                    <p class="card-text">With so many microphones on the market, how are you supposed to know what's the best? Take a look at our top picks.</p>
+                                    <button class="btn btn-light">View Episode Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section id="carousel" class="carousel-section py-5 bg-dark">
+        <div class="container">
+            <div id="podcastCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#podcastCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#podcastCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#podcastCarousel" data-bs-slide-to="2"></button>
+                </div>
+                
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="images/слайдер1.jpg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/слайдер2.jpg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/слайдер3.jpg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#podcastCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#podcastCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion -->
+    <section id="accordion" class="accordion-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="accordion" id="episodesAccordion">
+                <div class="accordion-item bg-secondary text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#episode1">
+                            Episode 1
+                        </button>
+                    </h2>
+                    <div id="episode1" class="accordion-collapse collapse show" data-bs-parent="#episodesAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ipsum vel risus sollicitudin luctus. Nullam in mi et enim auctor volutpat. Aliquam erat volutpat. Nam consequat sem id est malesuada, at sollicitudin magna tempor.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item bg-secondary text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#episode2">
+                            Episode 2
+                        </button>
+                    </h2>
+                    <div id="episode2" class="accordion-collapse collapse" data-bs-parent="#episodesAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ipsum vel risus sollicitudin luctus. Nullam in mi et enim auctor volutpat. Aliquam erat volutpat. Nam consequat sem id est malesuada, at sollicitudin magna tempor.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item bg-secondary text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#episode3">
+                            Episode 3
+                        </button>
+                    </h2>
+                    <div id="episode3" class="accordion-collapse collapse" data-bs-parent="#episodesAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ipsum vel risus sollicitudin luctus. Nullam in mi et enim auctor volutpat. Aliquam erat volutpat. Nam consequat sem id est malesuada, at sollicitudin magna tempor.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item bg-secondary text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#episode4">
+                            Episode 4
+                        </button>
+                    </h2>
+                    <div id="episode4" class="accordion-collapse collapse" data-bs-parent="#episodesAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ipsum vel risus sollicitudin luctus. Nullam in mi et enim auctor volutpat. Aliquam erat volutpat. Nam consequat sem id est malesuada, at sollicitudin magna tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="h1 fw-bold mb-4">About Our Podcast</h2>
+                    <p class="lead">We're passionate about helping podcasters create amazing content with professional quality.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/IMAGEe.jpg" alt="About Us" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Tabs -->
+    <section id="reviews" class="reviews-section py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="h1 fw-bold text-center mb-5">Listener Reviews</h2>
+            <ul class="nav nav-tabs justify-content-center mb-4" id="reviewsTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="tab-1" data-bs-toggle="tab" data-bs-target="#content-1">1 звезда</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab-2" data-bs-toggle="tab" data-bs-target="#content-2">2 звезды</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab-3" data-bs-toggle="tab" data-bs-target="#content-3">3 звезды</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab-4" data-bs-toggle="tab" data-bs-target="#content-4">4 звезды</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab-5" data-bs-toggle="tab" data-bs-target="#content-5">5 звёзд</button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="reviewsTabContent">
+                <!-- 1 Star -->
+                <div class="tab-pane fade show active" id="content-1">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Отличный контент, но качество звука могло бы быть лучше. Жду улучшений!</p>
+                                    <small>Алексей Петров</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Интересная тема, но слишком много воды в эпизоде. Нужно более структурировано.</p>
+                                    <small>Мария Иванова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Ожидал большего от эксперта. Ответы поверхностные, без глубины.</p>
+                                    <small>Дмитрий Смирнов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Звуковые эффекты слишком громкие, перебивают речь. Нужна балансировка.</p>
+                                    <small>Екатерина Козлова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Тема раскрыта не полностью. Осталось много вопросов без ответов.</p>
+                                    <small>Сергей Васильев</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/1star.png" class="img-fluid mb-3" alt="1 Star">
+                                    <p class="card-text">Слишком короткий эпизод для такой важной темы. Нужно расширить.</p>
+                                    <small>Ольга Николаева</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2 Stars -->
+                <div class="tab-pane fade" id="content-2">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Неплохой подкаст, но есть над чем работать. Звук неравномерный.</p>
+                                    <small>Анна Кузнецова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Интересные гости, но ведущий часто перебивает. Нужно давать говорить.</p>
+                                    <small>Павел Орлов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Тема актуальная, но подача скучная. Добавьте больше энергии!</p>
+                                    <small>Ирина Федорова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Хорошая структура, но не хватает практических примеров.</p>
+                                    <small>Михаил Попов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Полезная информация, но слишком много рекламных пауз.</p>
+                                    <small>Наталья Соколова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/2star.png" class="img-fluid mb-3" alt="2 Stars">
+                                    <p class="card-text">Нормальный контент, но ожидал более профессионального подхода.</p>
+                                    <small>Андрей Морозов</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 3 Stars -->
+                <div class="tab-pane fade" id="content-3">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Хороший сбалансированный эпизод. Интересная тема, нормальное исполнение.</p>
+                                    <small>Виктор Новиков</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Понравился гость эпизода. Информативно, но немного затянуто.</p>
+                                    <small>Елена Воробьева</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Средний подкаст. Есть полезные моменты, но нет wow-эффекта.</p>
+                                    <small>Артем Ковалев</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Нормальное качество звука. Тема раскрыта, но без особых инсайтов.</p>
+                                    <small>Светлана Павлова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Интересно послушать, но не более того. Жду более глубоких тем.</p>
+                                    <small>Константин Лебедев</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/3star.png" class="img-fluid mb-3" alt="3 Stars">
+                                    <p class="card-text">Хороший разбор темы, но не хватает интерактива с аудиторией.</p>
+                                    <small>Юлия Романова</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 4 Stars -->
+                <div class="tab-pane fade" id="content-4">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Отличный эпизод! Очень профессионально и информативно. Рекомендую!</p>
+                                    <small>Александр Волков</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Прекрасный подкаст! Узнал много нового. Жду продолжения темы.</p>
+                                    <small>Татьяна Алексеева</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Высокое качество производства! Приятно слушать. Так держать!</p>
+                                    <small>Владимир Семенов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Интересный гость, глубокая тема. Очень профессиональный подход.</p>
+                                    <small>Людмила Захарова</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Отличное звучание! Темп идеальный. Узнал много полезного.</p>
+                                    <small>Геннадий Борисов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/4star.png" class="img-fluid mb-3" alt="4 Stars">
+                                    <p class="card-text">Прекрасный контент! Баланс между теорией и практикой идеален.</p>
+                                    <small>Маргарита Карпова</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 5 Stars -->
+                <div class="tab-pane fade" id="content-5">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Великолепно! Лучший подкаст на эту тему! Жду каждый новый выпуск!</p>
+                                    <small>Денис Киселев</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Идеально! Профессионализм на высшем уровне! Браво команде!</p>
+                                    <small>Валентина Григорьева</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Шедевр! Каждый эпизод - это произведение искусства! Обожаю!</p>
+                                    <small>Станислав Макаров</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Восхитительно! Лучшее, что я слышал в этом году! Супер!</p>
+                                    <small>Алла Яковлева</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Безупречно! Качество контента зашкаливает! Рекомендую всем!</p>
+                                    <small>Роман Филиппов</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card bg-secondary text-white h-100">
+                                <div class="card-body text-center">
+                                    <img src="images/5star.png" class="img-fluid mb-3" alt="5 Stars">
+                                    <p class="card-text">Великолепный подкаст! Информация изменила мой подход к теме!</p>
+                                    <small>Лидия Белова</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="h1 fw-bold text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" class="form-control bg-dark text-white" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control bg-dark text-white" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control bg-dark text-white" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 text-center text-lg-start mb-4 mb-lg-0">
+                    <a href="#home">
+                        <img src="images/LOGO.png" alt="Logo" height="40">
+                    </a>
+                </div>
+                
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="d-flex flex-column">
+                                <a href="#home" class="text-white text-decoration-none mb-2">Home</a>
+                                <a href="#about" class="text-white text-decoration-none mb-2">About</a>
+                                <a href="#latest-episodes" class="text-white text-decoration-none mb-2">Episodes</a>
+                                <a href="#contact" class="text-white text-decoration-none">Contact</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex flex-column">
+                                <a href="#carousel" class="text-white-50 text-decoration-none mb-2">Gallery</a>
+                                <a href="#accordion" class="text-white-50 text-decoration-none mb-2">Episode Details</a>
+                                <a href="#reviews" class="text-white-50 text-decoration-none">Reviews</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 text-center text-lg-end">
+                    <img src="images/social.png" alt="Social Media" class="img-fluid social-icons">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Modal -->
+    <div class="modal fade" id="cookieModal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content cookie-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Cookie Preferences</h5>
+                </div>
+                <div class="modal-body">
+                    <p>We use cookies and similar technologies to ensure the best experience on our website, personalize content, provide social media features, and analyze our traffic. You can choose to accept all cookies or only those that are strictly necessary.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Reject All</button>
+                    <div class="footer-buttons">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Necessary Only</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Accept All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Автопоказ модального окна
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            var cookieModal = new bootstrap.Modal(document.getElementById('cookieModal'));
+            cookieModal.show();
+        }, 1000);
+    });
+    </script>
+    <!---->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

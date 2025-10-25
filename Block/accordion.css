@@ -1,0 +1,11 @@
+.accordion-section .accordion .accordion-button:not(.collapsed) {
+  background-color: #404040;
+  color: #ffffff;
+}
+.accordion-section .accordion .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.accordion-section .accordion .accordion-body {
+  border-top: 1px solid #404040;
+}/*# sourceMappingURL=accordion.css.map */

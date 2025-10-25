@@ -1,0 +1,20 @@
+.carousel-section .carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.carousel-section .carousel-item img {
+  border-radius: 10px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-section .carousel-control-prev,
+.carousel-section .carousel-control-next {
+  width: 5%;
+}
+.carousel-section .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,41 @@
+.navbar-brand {
+    img {
+        transition: transform 0.3s ease;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.cart-icon {
+    transition: opacity 0.3s ease;
+    
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: #ffffff !important;
+        }
+    }
+    
+    .dropdown-menu {
+        background-color: #2d2d2d;
+        border: none;
+        
+        .dropdown-item {
+            color: #ffffff;
+            
+            &:hover {
+                background-color: #404040;
+                color: #ffffff;
+            }
+        }
+    }
+}

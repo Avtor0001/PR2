@@ -1,0 +1,22 @@
+.latest-episodes .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.latest-episodes .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.latest-episodes .card .badge {
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+}
+.latest-episodes .card .btn-light {
+  background-color: #ffffff;
+  color: #191919;
+  border: none;
+  transition: all 0.3s ease;
+}
+.latest-episodes .card .btn-light:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}/*# sourceMappingURL=episodes.css.map */
